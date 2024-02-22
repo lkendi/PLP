@@ -9,7 +9,7 @@ my_list[1] = 15
 # extend the list
 my_list.extend([50, 60, 70])
 # remove the last element
-del(my_list[-1])
+del (my_list[-1])
 # sort in ascending order
 my_list.sort()
 # find and print the index of 30
