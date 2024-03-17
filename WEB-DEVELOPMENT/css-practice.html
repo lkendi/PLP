@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS, Margin, And Padding Features</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            padding: 30px;
+            font-size: 30px;
+            text-align: center;
+            background-color: antiquewhite;
+        }
+        section{
+            padding: 20px;
+        }
+
+        #skills-section{
+            background-color: #ececec;
+        }
+
+        #contact-section{
+            background-color: lightblue;
+        }
+
+        ul li{
+            border: 1px solid #999999;
+            list-style: none;
+            padding: 10px;
+            margin: 5px;
+
+        }
+
+        @media (max-width: 600px)
+        {
+            *{
+            padding: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>Lucy Kendi</header>
+    <section id="intro-section">
+        <h2>Introduction</h2>
+        <p>Hello, I'm Lucy. I am very passionate about tech and excited about getting to learn new concepts and technologies!</p>
+    </section>
+    <section id="skills-section">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+        </ul>
+    </section>
+
+    <section id="contact-section">
+        <h2>Contact</h2>
+        <p>Email: me@gmail.com </p>
+        <p>Social media links: <a href="#"> LinkedIn </a> | <a href="#">Twitter</a> | <a href="#">Github</a></p>
+    </section>
+
+</body>
+</html>
