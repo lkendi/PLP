@@ -1,0 +1,7 @@
+This is the first line
+Line 2 contains some numbers: 12345
+And this is the third line
+
+This is an appended line.
+Another appended line with numbers: 98765
+Appending a third line.
